@@ -4,7 +4,7 @@
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Instruções de uso">Instruções de uso</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-uso">Uso</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 O projeto Roll dice simulator serve para aqueles que querem rolar seus diversos dados de rpg, mas não tem um em casa.
  Para isso foi feito um site onde pode rolar todos os dados, e até personalizar o número de lados que tenha o devido dado.
 
-## 📌 Instruções de uso
+## 📌 Uso
 
 Para o uso correto do Roll dice Simulator, você tera duas alternativas.
 
