@@ -44,7 +44,7 @@ Copie os dados dos arquivos .html .css .js, assim você terá clonado o código 
 
 ### 💻 Online
 
-O uso online você poderá acessar por [ESTE LINK](https://leoclink77.github.io/Roll-dice-simulator/)
+O uso online você poderá acessar através [DESTE LINK](https://frosttlink.github.io/Roll-dice-simulator/)
 
 ## :memo: Licença
 
