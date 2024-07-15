@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   function animateResult(result) {
-      resultDiv.style.opacity = 0;
-      resultDiv.textContent = "Result: " + result;
+      resultDiv.style.opacity = 1;
+      resultDiv.textContent = result;
       setTimeout(function() {
           resultDiv.style.opacity = 1;
       }, 200);
