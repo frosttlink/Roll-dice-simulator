@@ -21,43 +21,77 @@
         <div class="container-dice">
             <h1>Roll Dice Simulator</h1>
             <div class="dice">
-
-                <button id="d4">
-                    <img src="dado/dados-d4.png" alt="D4">
-                    <h2>D4</h2>
-                </button>
-                <button id="d6"> 
-                    <img src="dado/dados-d6.png" alt="D6"> 
-                    <h2>D6</h2> 
-                </button>
-                <button id="d8"> 
-                    <img src="dado/dados-d8.png" alt="D8"> 
-                    <h2>D8</h2> 
-                </button>
-                <button id="d10"> 
-                    <img src="dado/dados-d10.png" alt="D10"> 
-                    <h2>D10</h2> 
-                </button>
-                <button id="d12">
-                    <img src="dado/dados-d12.png" alt="D12"> 
-                    <h2>D12</h2> 
-                </button>
-                <button id="d20"> 
-                    <img src="dado/dados-d20.png" alt="D20"> 
-                    <h2>D20</h2>
-                </button>
-    
-                <!-- <input type="number" id="customSides" placeholder="Custom Sides"> -->
-                <!-- <button id="custom">Roll Custom</button> -->
+                <div class="dice-container">
+                    <button id="d4">
+                        <img src="dado/dados-d4.png" alt="D4">
+                        <h2>D4</h2>
+                    </button>
+                    <div class="input-container input-container-large" id="d4-input">
+                        <input type="number" min="1" placeholder="Quantidade">
+                        <input type="number" placeholder="Adicionar">
+                        <button class="roll-btn">Rolar</button>
+                    </div>
+                </div>
+                <div class="dice-container">
+                    <button id="d6"> 
+                        <img src="dado/dados-d6.png" alt="D6"> 
+                        <h2>D6</h2> 
+                    </button>
+                    <div class="input-container input-container-large" id="d6-input">
+                        <input type="number" min="1" placeholder="Quantidade">
+                        <input type="number" placeholder="Adicionar">
+                        <button class="roll-btn">Rolar</button>
+                    </div>
+                </div>
+                <div class="dice-container">
+                    <button id="d8"> 
+                        <img src="dado/dados-d8.png" alt="D8"> 
+                        <h2>D8</h2> 
+                    </button>
+                    <div class="input-container input-container-large" id="d8-input">
+                        <input type="number" min="1" placeholder="Quantidade">
+                        <input type="number" placeholder="Adicionar">
+                        <button class="roll-btn">Rolar</button>
+                    </div>
+                </div>
+                <div class="dice-container">
+                    <button id="d10"> 
+                        <img src="dado/dados-d10.png" alt="D10"> 
+                        <h2>D10</h2> 
+                    </button>
+                    <div class="input-container input-container-large" id="d10-input">
+                        <input type="number" min="1" placeholder="Quantidade">
+                        <input type="number" placeholder="Adicionar">
+                        <button class="roll-btn">Rolar</button>
+                    </div>
+                </div>
+                <div class="dice-container">
+                    <button id="d12">
+                        <img src="dado/dados-d12.png" alt="D12"> 
+                        <h2>D12</h2> 
+                    </button>
+                    <div class="input-container input-container-large" id="d12-input">
+                        <input type="number" min="1" placeholder="Quantidade">
+                        <input type="number" placeholder="Adicionar">
+                        <button class="roll-btn">Rolar</button>
+                    </div>
+                </div>
+                <div class="dice-container">
+                    <button id="d20"> 
+                        <img src="dado/dados-d20.png" alt="D20"> 
+                        <h2>D20</h2>
+                    </button>
+                    <div class="input-container input-container-large" id="d20-input">
+                        <input type="number" min="1" placeholder="Quantidade de dados">
+                        <input type="number" placeholder="Adicionar ao resultado">
+                        <button class="roll-btn">Rolar</button>
+                    </div>
+                </div>
             </div>
-    
         </div>
-        <div class="result" id="result">
-            
-        </div>
+        <div class="result" id="result"></div>
     </main>
 
     <script src="script.js"></script>
 </body>
 </html>
-

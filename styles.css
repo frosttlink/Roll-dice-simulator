@@ -66,7 +66,6 @@ input {
   text-align: center;
 }
 
-
 h1 {
   font-size: 36px;
   margin-bottom: 50px;
@@ -84,4 +83,51 @@ h1::after {
   left: 0;
 }
 
+.dice-container {
+  position: relative;
+  display: inline-block;
+}
 
+.input-container {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #27272a;
+  padding: 10px;
+  border: solid 1px #52525b;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.input-container input {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100px;
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: 1px solid #7c3aed;
+  color: #fff;
+  background-color: #4c1d95;
+}
+
+.roll-btn {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 5px 10px;
+  color: #fff;
+  background-color: #4c1d95;
+  border: 1px solid #7c3aed;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.roll-btn:hover {
+  background-color: #2e1065;
+}
